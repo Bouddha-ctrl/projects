@@ -1,0 +1,182 @@
+
+body{
+    font-size: larger;
+    background-color: rgb(230, 230, 230);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}   
+.menu {
+    position: relative;
+}
+.menu_left {
+    background-color: #4CAF50;
+    width: 20%;
+    border-radius: 15px;
+    position: fixed;
+    float: left;
+    height: 97%;   
+    padding-left: 15px; 
+    transition: all .3s ease;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+
+.menu_right {
+    width: 75%;
+    float: right;
+    padding-top:30px ;
+}
+
+
+
+
+
+table {
+    width: 75%;
+    border-collapse: collapse;
+    
+}
+th , td {
+    padding :4px;
+    border-bottom  : 1px solid rgb(156, 155, 155);
+    border-left  : 1px solid rgb(156, 155, 155);
+    border-right  : 1px solid rgb(156, 155, 155);
+
+}
+th {
+    background-color: #4CAF50;
+    color : white;
+}
+
+tr:nth-child(odd){
+    background-color: white;
+}
+tr:nth-child(even){
+    background-color: rgb(216, 216, 216);
+}
+
+
+
+a{  
+    text-decoration: none;
+    
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.menu_left a{
+    display :block;
+    color :white;
+}
+li{
+    cursor: pointer;
+    color: white;
+    padding: 8px 16px;
+    margin-right:15px;
+    transition: all .3s ease;
+
+}
+li:hover ,li a:hover,div.out2:hover {
+    background-color: #43A047 ;
+    color :black;
+}
+
+
+.but {
+    width: 89%;
+    display: flex;
+    justify-content: center;
+    
+}   
+.but a{
+    color : rgb(0, 223, 11);
+    transition: all 0.4s ease;
+}
+
+.but a:hover,.but a:active,.but a:focus{
+    color :#43A047;
+    
+}
+
+.in{
+    height: 36vh;
+}
+.out{
+    height: 100%;
+    bottom: 0;
+}
+.out2 {
+    padding: 8px 16px;
+    width: 82%;
+    transition: all .3s ease;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.khaton {
+    width: 90%;
+    height: 0.7vh;
+    background-color: green;
+    border: none;
+    border-radius: 50%; 
+    margin-top: 10px;
+
+}
+.active, .active a{
+    background: #43A047;
+    color :black;
+}
+
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+  }
+.tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+   
+    position: absolute;
+    z-index: 1;
+  }
+  
+  /* Show the tooltip text when you mouse over the tooltip container */
+
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+  }
+
+.divimg {
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border: green solid 3px;
+
+    border-radius: 50%;
+    margin-left: 60px;
+    padding: 20px;
+}
+
+.img {
+    width: 80px;
+    height: 80px;
+    margin-left:10px ; 
+    margin-top: 10px;
+    
+}
+
+h3 {
+    color :#3e4444;
+    margin-bottom: 10px;
+
+}

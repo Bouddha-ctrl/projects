@@ -1,0 +1,88 @@
+
+body{
+    font-size: larger;
+    background-color: rgb(247, 247, 247);
+
+}
+.menu {
+    position: relative;
+}
+.menu_left {
+    background-color: #4CAF50;
+    width: 20%;
+    border-radius: 3px;
+    position: fixed;
+    float: left;
+    height: 97%;   
+    padding-left: 15px; 
+    transition: all .3s ease;
+}
+
+.menu_right {
+    width: 75%;
+    float: right;
+    padding-top:30px ;
+}
+
+p {
+    color :white; 
+}
+
+
+.menu_left a{
+    display :block;
+    color :white;
+}
+
+
+.but {
+    width: 75%;
+    display: flex;
+    justify-content: center;
+}   
+.but a{
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    background: #4CAF50;
+    border: 0;
+    padding: 15px;
+    color: #FFFFFF;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.but a:hover,.but a:active,.but a:focus,div.out2:hover{
+    background: #43A047;
+    color :black;
+}
+
+.out2{
+    padding: 8px 16px;
+    width: 82%;
+    transition: all .3s ease;
+}
+
+.in{
+    height: 69vh;
+}
+.out{
+    height: 100%;
+    bottom: 0;
+}
+.out2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.khaton {
+    width: 90%;
+    height: 1vh;
+    background-color: green;
+    border: none;
+    border-radius: 50%;
+
+
+}
+

@@ -1,0 +1,41 @@
+body{
+    font-size: 20px;
+}
+table {
+    border-collapse: collapse;
+    
+}
+th , td {
+    padding :4px;
+    border: 1px solid rgb(156, 155, 155);
+    
+
+}
+th {
+    background-color: #4CAF50;
+    color : white;
+}
+.sub {
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    background: #4CAF50;
+    width: 10%;
+    padding: 10px;
+
+    border: 0;
+    color: #FFFFFF;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 3px;
+    margin-left: 45%;
+    
+}
+
+.sub:hover,#sub:active,#sub:focus {
+    background: #43A047;
+  
+}
+p {
+    padding: 0;
+    margin : 0;
+}

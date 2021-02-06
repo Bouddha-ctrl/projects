@@ -1,0 +1,95 @@
+
+
+#tot{
+    max-width: 55%;
+    margin: 4em auto;
+    margin-top: 0.5em;
+    margin-bottom: 10px;    
+    padding: 15px;
+    padding-bottom: 0px;
+    background: #fff;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    background-color: #4CAF50;
+    font-size: 16px;
+    
+}   
+
+#tot div{
+    margin: .5em 25px;
+}
+
+p{
+    font-size: 37px;
+    margin-top: -15px;
+    margin-bottom: 0px;
+    text-align: center;
+    color : #297e2b;
+    text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+}
+
+.tit{
+    line-height: 0.5;
+    font-size: 37px;
+    margin-top: -15px;
+    margin-bottom: 0px;
+    text-align: center;
+    color : #297e2b;
+    text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+}
+
+.menu2 {
+    position: relative;
+    padding: 7px;
+}
+
+
+.form input,.form textarea ,.form select{
+    font-family: "Roboto", sans-serif;
+    outline: 0;
+    background: #f2f2f2;
+    border: 0;
+    margin: 0 15px 15px 0;
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: 15px;
+}
+.file {
+    padding: 10px;
+}
+.C {
+    width: 60px;
+}
+
+.sub {
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    outline: 0;
+    background: #4CAF50;
+    width: 10%;
+    padding: 10px;
+    margin-left: 10px;
+    border: 0;
+    color: #FFFFFF;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 3px;
+    
+}
+
+.sub:hover,#sub:active,#sub:focus {
+    background: #43A047;
+  }
+
+.modal-dialog{
+    margin-top: 200px;
+}
+.modal {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.modal-header h5{
+    color: red;
+}
+
+.modal-body p{
+    color: black;
+}
